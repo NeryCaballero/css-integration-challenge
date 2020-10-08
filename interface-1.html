@@ -7,14 +7,16 @@
     <!-- CSS Stylesheet --> <link href="interface-1.css" type="text/css" rel="stylesheet">
     <!-- BootstrapCDN css --> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <!-- Google Fonts --> <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome --> <script src="https://kit.fontawesome.com/fdac4fc693.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header id="header">
+    <!-- Interface 1 -->
+    <header class="headers">
         <h1>Interface 1</h1>
         <hr>
         <p>Create this view pixel-perfectly. Make it responsive: the grid should stack on small screens.</p>
     </header>
-    <div id="main-container">
+    <div id="interface1-container">
         <!-- Row -->
         <div id="main-row" class="row ">
             <!-- Col 1 -->
@@ -45,6 +47,57 @@
 
         </div>
     </div>
+    <!-- Interface 2 -->
+    <!-- Interface 3 -->
+    <header class="headers">    
+        <h1>Interface 3</h1>
+        <hr>
+        <p>Create this view pixel-perfectly.</p>
+    </header>
+    <div id="interface3-container">
+        <!-- Row -->
+        <div id="card" class="row border">
+            <!-- Col 1 -->
+            <div id="col-image" class="col-5">
+                <img src="https://picsum.photos/200/260">
+            </div>
+            <!-- Col 2 -->
+            <div id="content" class="col-7">
+                <h6>A Quick Market-Driven Guide to Choosing a 'Profitable' Start-Up Name</h6>
+                <p class="text-muted">And what 'profit' has to do with naming your startup.</p>
+                
+                <!-- LOWER ROW -->
+                <div id="profile" class="row">
+                    <!-- Profile pic -->
+                    <div class="col-3">
+                        <img id="profile-pic" src="https://picsum.photos/45">
+                    </div>
+
+                    <!-- Profile -->
+                    <div class="col-6">
+                        <div id="profile-name">
+                            <p>Josiah Humphrey</p>
+                        </div>
+                        <div id="profile-info" class="text-muted">
+                            <p>Oct 08 | 9 min read</p>                     
+                        </div>
+                    </div>
+
+                    <!-- Bookmark -->
+                    <div id="bookmark" class="col-3 text-muted">
+                        <i class="far fa-bookmark"></i>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
      <!-- BootstrapCDN js --> 
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>    
 </body>
