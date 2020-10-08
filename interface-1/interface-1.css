@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  font-family: "IBM Plex Mono", monospace !important;
+  font-size: 14px !important;
+  line-height: 1.75 !important;
+  padding: 50px;
+}
+body #header, body #main-container {
+  color: #414141;
+  max-width: 1112px;
+  margin: auto;
+}
+body #main-container #main-row {
+  padding: 40px;
+}
+body #main-container #main-row img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+body #main-container #main-row h1 {
+  color: #7aba90;
+  font-size: 160%;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+body #main-container #main-row p {
+  color: #616161;
+  font-size: 90%;
+}
+body #main-container #main-row p span {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=interface-1.css.map */

@@ -1,0 +1,53 @@
+$header-color: rgb(65, 65, 65);
+$title-color: rgb(122, 186, 144);
+$text-color: rgb(97, 97, 97);
+$the-font: 'IBM Plex Mono', monospace;
+
+body {
+    box-sizing: border-box;
+    font-family: $the-font!important;
+    font-size: 14px!important;
+    line-height: 1.75!important;
+    padding: 50px;
+
+    #header {
+        color: $header-color;
+        max-width: 1112px;
+        margin: auto;
+    }
+    
+    #main-container {
+        @extend #header;
+
+        #main-row {
+            padding: 40px;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                margin: auto;
+            }
+
+            h1 {
+                color: $title-color;
+                font-size: 160%;
+                font-weight: 400;
+                margin-bottom: 10px;
+                margin-top: 25px;
+            }
+
+            p {
+                color: $text-color;
+                font-size: 90%;
+
+                span {
+                    font-size: 110%;
+                    font-weight: bold;
+                }
+            }
+
+        }
+    }
+
+
+}
