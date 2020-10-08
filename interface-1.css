@@ -1,0 +1,71 @@
+body {
+  box-sizing: border-box;
+  font-size: 14px !important;
+  line-height: 1.75 !important;
+  padding: 50px;
+}
+body .headers, body #interface3-container, body #interface1-container {
+  color: #414141;
+  max-width: 1112px;
+  margin: auto;
+}
+body #interface1-container {
+  font-family: "IBM Plex Mono", monospace !important;
+}
+body #interface1-container #main-row {
+  padding: 40px;
+}
+body #interface1-container #main-row img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+body #interface1-container #main-row h1 {
+  color: #7aba90;
+  font-size: 160%;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+body #interface1-container #main-row p {
+  color: #616161;
+  font-size: 90%;
+}
+body #interface1-container #main-row p span {
+  font-size: 110%;
+  font-weight: bold;
+}
+body #interface3-container #card {
+  margin-left: 30px;
+  margin-top: 30px;
+  max-width: 490px;
+  max-height: 260px;
+}
+body #interface3-container #card #col-image {
+  padding: 0;
+}
+body #interface3-container #card #content {
+  padding: 20px;
+}
+body #interface3-container #card #content h6 {
+  font-size: 121%;
+}
+body #interface3-container #card #content #profile {
+  margin-top: 65px;
+}
+body #interface3-container #card #content #profile #profile-pic {
+  border-radius: 50%;
+  margin-right: -20px;
+}
+body #interface3-container #card #content #profile #profile-name {
+  font-size: 85%;
+}
+body #interface3-container #card #content #profile #profile-info {
+  font-size: 75%;
+  margin-top: -20px;
+}
+body #interface3-container #card #content #profile #bookmark {
+  font-size: 140%;
+}
+
+/*# sourceMappingURL=interface-1.css.map */
