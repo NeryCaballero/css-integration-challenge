@@ -1,7 +1,10 @@
 $header-color: rgb(65, 65, 65);
-$title-color: rgb(122, 186, 144);
-$text-color: rgb(97, 97, 97);
-$the-font: 'IBM Plex Mono', monospace;
+$interface1-title-color: rgb(122, 186, 144);
+$interface1-text-color: rgb(106, 106, 106);
+$interface1-font: 'IBM Plex Mono', monospace;
+$interface2-bg-color: rgb(75, 146, 238);
+$interface2-color: rgb(201, 216, 238);
+$interface2-font: 'Roboto', sans-serif;
 
 body {
     box-sizing: border-box;
@@ -18,7 +21,7 @@ body {
     #interface1-container {
         
         @extend .headers;
-        font-family: $the-font!important;
+        font-family: $interface1-font!important;
 
         #main-row {
             padding: 40px;
@@ -30,7 +33,7 @@ body {
             }
 
             h1 {
-                color: $title-color;
+                color: $interface1-title-color;
                 font-size: 160%;
                 font-weight: 400;
                 margin-bottom: 10px;
@@ -38,7 +41,7 @@ body {
             }
 
             p {
-                color: $text-color;
+                color: $interface1-text-color;
                 font-size: 90%;
 
                 span {
@@ -46,6 +49,126 @@ body {
                     font-weight: bold;
                 }
             }
+
+        }
+    }
+
+    #interface2-container {
+        background-color: #f1f1f1;
+        margin: 30px;      
+        max-width: 330px;
+        padding: 5px;
+
+        #interface2 {
+            background-color: $interface2-bg-color;
+            color: $interface2-color;
+            font-family: $interface2-font;
+            padding: 20px;
+
+            h5{font-size:110%}
+            
+            #ninety {
+                font-size: 370%;
+                font-weight: 200;
+                margin-top: -15px;
+            }
+
+            h6 {font-size: 85%}
+
+            #graph {
+                display:flex;
+                align-items: flex-end;
+                width: 280px;
+                justify-content: center;
+                margin-bottom: 30px;
+        
+                .bar{
+                    width: 10px;
+                    background-color: $interface2-color;
+                    border: 1px solid $interface2-bg-color;
+                    
+                }
+        
+                .p20{height:20px;}
+        
+                .p30{height: 30px;}
+        
+                .p40{height: 40px;}
+        
+                .p5O{height: 50px;}
+        
+                .p60{
+                    height: 60px;
+                }
+        
+                .p65{
+                    height: 65px;
+                }
+                .p70{
+                    height: 70px;
+                }
+        
+                .p80{
+                    height: 80px;
+                }
+        
+                .p85{
+                    height: 85px;
+                }
+        
+                .p90{
+                    height: 90px;
+                }
+        
+                .p100{
+                    height: 100px;
+                }
+        
+        
+            }
+
+            table {
+                width:100%;
+
+                tr {
+                    border-bottom: 1px solid $interface2-color;
+                    #col-tap {width: 80%}
+                    #col-users {width: 20%}
+                    :nth-child(2) {text-align: right;}
+                }
+            }
+
+            
+
+           
+            
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }
