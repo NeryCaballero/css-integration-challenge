@@ -28,12 +28,95 @@ body #interface1-container #main-row h1 {
   margin-top: 25px;
 }
 body #interface1-container #main-row p {
-  color: #616161;
+  color: #6a6a6a;
   font-size: 90%;
 }
 body #interface1-container #main-row p span {
   font-size: 110%;
   font-weight: bold;
+}
+body #interface2-container {
+  background-color: #f1f1f1;
+  margin: 30px;
+  max-width: 330px;
+  padding: 5px;
+}
+body #interface2-container #interface2 {
+  background-color: #4b92ee;
+  color: #c9d8ee;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
+body #interface2-container #interface2 h5 {
+  font-size: 110%;
+}
+body #interface2-container #interface2 #ninety {
+  font-size: 370%;
+  font-weight: 200;
+  margin-top: -15px;
+}
+body #interface2-container #interface2 h6 {
+  font-size: 85%;
+}
+body #interface2-container #interface2 #graph {
+  display: flex;
+  align-items: flex-end;
+  width: 280px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+body #interface2-container #interface2 #graph .bar {
+  width: 10px;
+  background-color: #c9d8ee;
+  border: 1px solid #4b92ee;
+}
+body #interface2-container #interface2 #graph .p20 {
+  height: 20px;
+}
+body #interface2-container #interface2 #graph .p30 {
+  height: 30px;
+}
+body #interface2-container #interface2 #graph .p40 {
+  height: 40px;
+}
+body #interface2-container #interface2 #graph .p5O {
+  height: 50px;
+}
+body #interface2-container #interface2 #graph .p60 {
+  height: 60px;
+}
+body #interface2-container #interface2 #graph .p65 {
+  height: 65px;
+}
+body #interface2-container #interface2 #graph .p70 {
+  height: 70px;
+}
+body #interface2-container #interface2 #graph .p80 {
+  height: 80px;
+}
+body #interface2-container #interface2 #graph .p85 {
+  height: 85px;
+}
+body #interface2-container #interface2 #graph .p90 {
+  height: 90px;
+}
+body #interface2-container #interface2 #graph .p100 {
+  height: 100px;
+}
+body #interface2-container #interface2 table {
+  width: 100%;
+}
+body #interface2-container #interface2 table tr {
+  border-bottom: 1px solid #c9d8ee;
+}
+body #interface2-container #interface2 table tr #col-tap {
+  width: 80%;
+}
+body #interface2-container #interface2 table tr #col-users {
+  width: 20%;
+}
+body #interface2-container #interface2 table tr :nth-child(2) {
+  text-align: right;
 }
 body #interface3-container #card {
   margin-left: 30px;
